@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lokacijes",
+  "info": {
+    "singularName": "lokacije",
+    "pluralName": "lokacijes",
+    "displayName": "Lokacije",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sadrzaj": {
+      "type": "text"
+    },
+    "Profilna": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Naslov": {
+      "type": "string"
+    },
+    "Naslov_en": {
+      "type": "string"
+    },
+    "Sadrzaj_en": {
+      "type": "text"
+    },
+    "Pozicija": {
+      "type": "biginteger"
+    }
+  }
+}
