@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_item_stavkas",
+  "info": {
+    "displayName": "Stavka",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Naslov": {
+      "type": "string"
+    },
+    "Naslov_en": {
+      "type": "string"
+    },
+    "Sadrzaj": {
+      "type": "richtext"
+    },
+    "Sadrzaj_en": {
+      "type": "richtext"
+    }
+  }
+}

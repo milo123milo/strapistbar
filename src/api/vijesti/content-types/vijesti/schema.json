@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vijestis",
+  "info": {
+    "singularName": "vijesti",
+    "pluralName": "vijestis",
+    "displayName": "Vijesti",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VijestiNaslov": {
+      "type": "string"
+    },
+    "VijestiNaslov_en": {
+      "type": "string"
+    },
+    "VijestiSadrzaj": {
+      "type": "richtext"
+    },
+    "VijestiSadrzaj_en": {
+      "type": "richtext"
+    },
+    "VijestiProfilna": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

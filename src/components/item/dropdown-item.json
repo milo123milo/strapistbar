@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_item_dropdown_items",
+  "info": {
+    "displayName": "DropdownItem",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "Naslov": {
+      "type": "string"
+    },
+    "Sadrzaj": {
+      "type": "richtext"
+    },
+    "Naslov_en": {
+      "type": "string"
+    },
+    "Sadrzaj_en": {
+      "type": "richtext"
+    }
+  }
+}

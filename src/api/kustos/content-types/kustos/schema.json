@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "kustoss",
+  "info": {
+    "singularName": "kustos",
+    "pluralName": "kustoss",
+    "displayName": "Kustos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Title_en": {
+      "type": "string"
+    },
+    "Profilna": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Prozor1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.dropdown-item"
+    },
+    "Prozor2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.dropdown-item"
+    },
+    "Prozor3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.dropdown-item"
+    },
+    "Prozor4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.dropdown-item"
+    },
+    "Sadrzaj": {
+      "type": "text"
+    },
+    "Sadrzaj_en": {
+      "type": "text"
+    }
+  }
+}

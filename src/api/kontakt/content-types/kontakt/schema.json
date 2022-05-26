@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakts",
+  "info": {
+    "singularName": "kontakt",
+    "pluralName": "kontakts",
+    "displayName": "Kontakt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Informacije": {
+      "type": "richtext"
+    },
+    "Informacije_en": {
+      "type": "richtext"
+    }
+  }
+}

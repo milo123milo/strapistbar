@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_item_citats",
+  "info": {
+    "displayName": "Citat",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Autor": {
+      "type": "string"
+    },
+    "Sadrzaj": {
+      "type": "text"
+    },
+    "Sadrzaj_en": {
+      "type": "text"
+    },
+    "Autor_en": {
+      "type": "string"
+    }
+  }
+}
